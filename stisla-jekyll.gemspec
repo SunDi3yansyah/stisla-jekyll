@@ -6,8 +6,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Cahyadi Triyansyah"]
   spec.email         = ["sundi3yansyah@gmail.com"]
 
-  spec.summary       = "TODO: Write a short summary, because Rubygems requires one."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Integrates the Stisla theme with the Jekyll}
+  spec.description   = %q{Stisla is Free Bootstrap Admin Template and will help you to speed up your project, design your own dashboard UI and the users will love it.}
+  spec.homepage      = "https://github.com/SunDi3yansyah/stisla-jekyll"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
