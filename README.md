@@ -35,6 +35,12 @@
 [![GitHub issues](https://img.shields.io/github/issues/SunDi3yansyah/stisla-jekyll.svg)](https://github.com/SunDi3yansyah/stisla-jekyll/issues)
 
 
+## Link Stisla
+- Homepage: [getstisla.com](https://getstisla.com)
+- Repository: [github.com/stisla/stisla](https://github.com/stisla/stisla)
+- Documentation: [getstisla.com/docs](https://getstisla.com/docs)
+
+
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:
