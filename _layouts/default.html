@@ -11,11 +11,27 @@
 
   <link rel="stylesheet" href="{{ '/assets/css/style.css' }}?{{ site.time | date: '%s%N' }}">
   <link rel="stylesheet" href="{{ '/assets/css/components.css' }}?{{ site.time | date: '%s%N' }}">
+  <link rel="stylesheet" href="{{ '/assets/reset.css' }}?{{ site.time | date: '%s%N' }}">
 </head>
 <body class="layout-3">
-  {{ content }}
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<div id="app">
+  <div class="main-wrapper container">
+    {% include navbar.html %}
+    <div class="main-content">
+      <section class="section">
+        <div class="section-body">
+          {{ content }}
+        </div>
+      </section>
+    </div>
+    <footer class="main-footer">
+      <div class="footer-left">
+        Copyright &copy; {{ site.time | date: '%Y' }} <div class="bullet"></div> Jekyll Theme By <a href="https://sundi3yansyah.com" target="_blank">Cahyadi Triyansyah</a>, based on <a href="https://getstisla.com" target="_blank">Stisla</a>
+      </div>
+    </footer>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
