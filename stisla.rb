@@ -14,3 +14,7 @@ FileUtils.cp(bootstrap, 'assets/node_modules/bootstrap/dist/css/bootstrap.min.cs
 fontawesome = 'stisla/node_modules/@fortawesome/fontawesome-free/css/all.min.css'
 FileUtils.mkdir_p('assets/node_modules/@fortawesome/fontawesome-free/css/')
 FileUtils.cp(fontawesome, 'assets/node_modules/@fortawesome/fontawesome-free/css/all.min.css') if File.exist? fontawesome
+
+webfonts = 'stisla/node_modules/@fortawesome/fontawesome-free/webfonts/.'
+FileUtils.mkdir_p('assets/node_modules/@fortawesome/fontawesome-free/webfonts/')
+FileUtils.cp_r webfonts, 'assets/node_modules/@fortawesome/fontawesome-free/webfonts' if File.directory? css
