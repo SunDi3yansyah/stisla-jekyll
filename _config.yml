@@ -1,0 +1,60 @@
+title: Stisla Jekyll Theme
+email: sundi3yansyah@gmail.com
+description: >-
+  Hi, my name is Cahyadi Triyansyah, this iste build with Jekyll and Stisla theme
+baseurl: ""
+url: ""
+twitter_username: SunDi3yansyah
+github_username:  SunDi3yansyah
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: "/:year/:i_month/:i_day/:title/"
+category_dir: ""
+feed:
+  path: feed/atom.xml
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+
+# Pagination
+paginate: 6
+paginate_path: /page:num/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-gist
+  - jemoji
+
+# Include
+include:
+  - _pages
+
+# Exclude
+exclude:
+  - .github
+  - .idea
+  - .vscode
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - GUIDELINES.md
+  - Rakefile
+  - stisla-jekyll.gemspec
+
