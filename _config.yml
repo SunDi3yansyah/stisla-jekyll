@@ -57,4 +57,4 @@ exclude:
   - GUIDELINES.md
   - Rakefile
   - stisla-jekyll.gemspec
-
+  - stisla

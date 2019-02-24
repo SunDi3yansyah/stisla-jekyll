@@ -1,1 +1,21 @@
-{{ content }}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+  {% seo %}
+  {% feed_meta %}
+
+  <link rel="stylesheet" href="/assets/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' }}?{{ site.time | date: '%s%N' }}">
+  <link rel="stylesheet" href="{{ '/assets/css/components.css' }}?{{ site.time | date: '%s%N' }}">
+</head>
+<body class="layout-3">
+  {{ content }}
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
