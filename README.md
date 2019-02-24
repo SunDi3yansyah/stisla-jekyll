@@ -57,11 +57,15 @@ theme: stisla-jekyll
 
 And then execute:
 
-    $ bundle
+```bash
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install stisla-jekyll
+```bash
+$ gem install stisla-jekyll
+```
 
 
 ## Usage
