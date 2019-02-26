@@ -27,7 +27,7 @@
 
 ## Status
 
-[![Build Status](https://travis-ci.com/SunDi3yansyah/stisla-jekyll.svg)](https://travis-ci.com/SunDi3yansyah/stisla-jekyll)
+[![Build Status](https://travis-ci.org/SunDi3yansyah/stisla-jekyll.svg)](https://travis-ci.org/SunDi3yansyah/stisla-jekyll)
 [![License](https://img.shields.io/github/license/SunDi3yansyah/stisla-jekyll.svg)](LICENSE)
 [![Gem Version](https://badge.fury.io/rb/stisla-jekyll.svg)](https://badge.fury.io/rb/stisla-jekyll)
 [![Download total](https://img.shields.io/gem/dt/stisla-jekyll.svg?style=flat)](https://badge.fury.io/rb/stisla-jekyll)
