@@ -14,9 +14,11 @@ before_install:
   - travis_retry gem update --system
   - travis_retry gem install bundler
 install:
-  - travis_retry bundle
+  - travis_retry bundle install
+  - travis_retry bundle update
   - gem build stisla-jekyll.gemspec
   - gem install ./stisla-jekyll-*.gem
+  - bundle exec jekyll build
 deploy:
   provider: pages
   skip-cleanup: true
@@ -24,7 +26,7 @@ deploy:
   github-token: $GITHUB_TOKEN
   local-dir: _site
   target-branch: gh-pages
-  fqdn: weblog.rails.id
+  fqdn: sundi3yansyah.com/stisla-jekyll
   on:
     branch: master
     rvm: $RUBY_VERSION_FOR_DEPLOY
