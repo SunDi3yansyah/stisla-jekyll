@@ -21,12 +21,12 @@ install:
   - bundle exec jekyll build
 deploy:
   provider: pages
-  skip-cleanup: true
-  keep-history: true
-  github-token: $GITHUB_TOKEN
-  local-dir: _site
-  target-branch: gh-pages
-  fqdn: sundi3yansyah.com/stisla-jekyll
+  skip_cleanup: true
+  keep_history: true
+  github_token: $GITHUB_TOKEN
+  local_dir: _site
+  target_branch: gh-pages
+  fqdn: sundi3yansyah.github.io/stisla-jekyll
   on:
     branch: master
     rvm: $RUBY_VERSION_FOR_DEPLOY
